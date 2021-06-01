@@ -64,7 +64,8 @@ def get_all_subjects_data(path):
     subject_1_data = get_subject_files(path + "/subject_1")
     subject_2_data = get_subject_files(path + "/subject_2")
     subject_3_data = get_subject_files(path + "/subject_3")
-    return [subject_1_data, subject_2_data, subject_3_data]
+    subject_4_data = get_subject_files(path + "/subject_4")
+    return [subject_1_data, subject_2_data, subject_3_data, subject_4_data]
 
 
 # {
@@ -81,4 +82,6 @@ def get_all_subjects_data(path):
 #     "Walking":[
 #       ]
 #   ]
+#   "subject_2": []
+#   "subject_3": []
 # }
