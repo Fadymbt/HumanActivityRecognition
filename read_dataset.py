@@ -61,11 +61,11 @@ def read_csv_files(final_path):
 
 
 def get_all_subjects_data(path):
-    subject_1_data = get_subject_files(path + "/subject_1")
-    subject_2_data = get_subject_files(path + "/subject_2")
-    subject_3_data = get_subject_files(path + "/subject_3")
-    subject_4_data = get_subject_files(path + "/subject_4")
-    return [subject_1_data, subject_2_data, subject_3_data, subject_4_data]
+    all_subjects = []
+    for i in range(1, 16):
+        subject = get_subject_files(path + "/subject_" + str(i))
+        all_subjects.append(subject)
+    return all_subjects
 
 
 # {

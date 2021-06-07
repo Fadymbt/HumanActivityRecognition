@@ -1,0 +1,41 @@
+############################################
+# Sensor:  MagneticField                             #
+# Version: 22092015                        #
+# Posture: running                         #
+############################################
+
+MagneticField_running_chest.csv
+> entries: 30973
+> frequency: 49.95 Hz
+> duration: 620036 ms / 10.33 min
+
+MagneticField_running_forearm.csv
+> entries: 31345
+> frequency: 50.55 Hz
+> duration: 620044 ms / 10.33 min
+
+MagneticField_running_head.csv
+> entries: 30970
+> frequency: 49.95 Hz
+> duration: 619983 ms / 10.33 min
+
+MagneticField_running_shin.csv
+> entries: 30973
+> frequency: 49.95 Hz
+> duration: 620037 ms / 10.33 min
+
+MagneticField_running_thigh.csv
+> entries: 30973
+> frequency: 49.95 Hz
+> duration: 620040 ms / 10.33 min
+
+MagneticField_running_upperarm.csv
+> entries: 30928
+> frequency: 49.95 Hz
+> duration: 619145 ms / 10.32 min
+
+MagneticField_running_waist.csv
+> entries: 30974
+> frequency: 49.96 Hz
+> duration: 620037 ms / 10.33 min
+
