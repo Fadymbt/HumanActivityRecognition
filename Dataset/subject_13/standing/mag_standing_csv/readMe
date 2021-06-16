@@ -1,0 +1,41 @@
+############################################
+# Sensor:  MagneticField                             #
+# Version: 22092015                        #
+# Posture: standing                         #
+############################################
+
+MagneticField_standing_chest.csv
+> entries: 34065
+> frequency: 49.95 Hz
+> duration: 681932 ms / 11.37 min
+
+MagneticField_standing_forearm.csv
+> entries: 34447
+> frequency: 50.51 Hz
+> duration: 681942 ms / 11.37 min
+
+MagneticField_standing_head.csv
+> entries: 34065
+> frequency: 49.95 Hz
+> duration: 681943 ms / 11.37 min
+
+MagneticField_standing_shin.csv
+> entries: 34066
+> frequency: 49.95 Hz
+> duration: 681947 ms / 11.37 min
+
+MagneticField_standing_thigh.csv
+> entries: 34065
+> frequency: 49.95 Hz
+> duration: 681944 ms / 11.37 min
+
+MagneticField_standing_upperarm.csv
+> entries: 34065
+> frequency: 49.95 Hz
+> duration: 681941 ms / 11.37 min
+
+MagneticField_standing_waist.csv
+> entries: 34039
+> frequency: 49.95 Hz
+> duration: 681396 ms / 11.36 min
+

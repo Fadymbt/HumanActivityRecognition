@@ -1,0 +1,41 @@
+############################################
+# Sensor:  MagneticField                             #
+# Version: 23092015                        #
+# Posture: lying                         #
+############################################
+
+MagneticField_lying_chest.csv
+> entries: 32607
+> frequency: 49.95 Hz
+> duration: 652748 ms / 10.88 min
+
+MagneticField_lying_forearm.csv
+> entries: 33014
+> frequency: 50.58 Hz
+> duration: 652736 ms / 10.88 min
+
+MagneticField_lying_head.csv
+> entries: 32606
+> frequency: 49.96 Hz
+> duration: 652664 ms / 10.88 min
+
+MagneticField_lying_shin.csv
+> entries: 32606
+> frequency: 49.95 Hz
+> duration: 652729 ms / 10.88 min
+
+MagneticField_lying_thigh.csv
+> entries: 32607
+> frequency: 49.95 Hz
+> duration: 652750 ms / 10.88 min
+
+MagneticField_lying_upperarm.csv
+> entries: 32606
+> frequency: 49.95 Hz
+> duration: 652738 ms / 10.88 min
+
+MagneticField_lying_waist.csv
+> entries: 32608
+> frequency: 49.95 Hz
+> duration: 652754 ms / 10.88 min
+

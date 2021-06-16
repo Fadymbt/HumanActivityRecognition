@@ -1,0 +1,41 @@
+############################################
+# Sensor:  MagneticField                             #
+# Version: 23092015                        #
+# Posture: walking                         #
+############################################
+
+MagneticField_walking_chest.csv
+> entries: 30905
+> frequency: 49.95 Hz
+> duration: 618674 ms / 10.31 min
+
+MagneticField_walking_forearm.csv
+> entries: 31261
+> frequency: 50.53 Hz
+> duration: 618672 ms / 10.31 min
+
+MagneticField_walking_head.csv
+> entries: 30906
+> frequency: 49.95 Hz
+> duration: 618681 ms / 10.31 min
+
+MagneticField_walking_shin.csv
+> entries: 30905
+> frequency: 49.95 Hz
+> duration: 618673 ms / 10.31 min
+
+MagneticField_walking_thigh.csv
+> entries: 30906
+> frequency: 49.96 Hz
+> duration: 618676 ms / 10.31 min
+
+MagneticField_walking_upperarm.csv
+> entries: 30904
+> frequency: 49.95 Hz
+> duration: 618669 ms / 10.31 min
+
+MagneticField_walking_waist.csv
+> entries: 30906
+> frequency: 49.95 Hz
+> duration: 618680 ms / 10.31 min
+

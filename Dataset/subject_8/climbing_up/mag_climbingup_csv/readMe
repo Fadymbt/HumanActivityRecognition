@@ -1,0 +1,41 @@
+############################################
+# Sensor:  MagneticField                             #
+# Version: 22092015                        #
+# Posture: climbingup                         #
+############################################
+
+MagneticField_climbingup_chest.csv
+> entries: 57852
+> frequency: 49.95 Hz
+> duration: 1158141 ms / 19.30 min
+
+MagneticField_climbingup_forearm.csv
+> entries: 58526
+> frequency: 50.53 Hz
+> duration: 1158193 ms / 19.30 min
+
+MagneticField_climbingup_head.csv
+> entries: 57855
+> frequency: 49.95 Hz
+> duration: 1158198 ms / 19.30 min
+
+MagneticField_climbingup_shin.csv
+> entries: 57856
+> frequency: 49.95 Hz
+> duration: 1158204 ms / 19.30 min
+
+MagneticField_climbingup_thigh.csv
+> entries: 57855
+> frequency: 49.95 Hz
+> duration: 1158197 ms / 19.30 min
+
+MagneticField_climbingup_upperarm.csv
+> entries: 57856
+> frequency: 49.95 Hz
+> duration: 1158226 ms / 19.30 min
+
+MagneticField_climbingup_waist.csv
+> entries: 57857
+> frequency: 49.95 Hz
+> duration: 1158208 ms / 19.30 min
+
