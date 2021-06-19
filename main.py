@@ -153,6 +153,27 @@ for i in range(15):
             temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
         running_total_per_row.append(pd.DataFrame(temp))
 
+        # Mag forearm
+        temp = dataset[j][1][3][1][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        running_total_per_row.append(pd.DataFrame(temp))
+        # Mag waist
+        temp = dataset[j][1][3][6][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        running_total_per_row.append(pd.DataFrame(temp))
+        # Mag thigh
+        temp = dataset[j][1][3][4][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        running_total_per_row.append(pd.DataFrame(temp))
+        # Mag head
+        temp = dataset[j][1][3][2][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        running_total_per_row.append(pd.DataFrame(temp))
+
         if i == j:
             running_test = pd.concat(running_total_per_row, axis = 1, ignore_index = True)
         else:
@@ -209,6 +230,27 @@ for i in range(15):
         sitting_total_per_row.append(pd.DataFrame(temp))
         # Gyr head
         temp = dataset[j][2][2][3][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        sitting_total_per_row.append(pd.DataFrame(temp))
+
+        # Mag forearm
+        temp = dataset[j][2][3][1][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        sitting_total_per_row.append(pd.DataFrame(temp))
+        # Mag waist
+        temp = dataset[j][2][3][6][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        sitting_total_per_row.append(pd.DataFrame(temp))
+        # Mag thigh
+        temp = dataset[j][2][3][4][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        sitting_total_per_row.append(pd.DataFrame(temp))
+        # Mag head
+        temp = dataset[j][2][3][2][1]
         if i == 0:
             temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
         sitting_total_per_row.append(pd.DataFrame(temp))
@@ -273,6 +315,27 @@ for i in range(15):
             temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
         standing_total_per_row.append(pd.DataFrame(temp))
 
+        # Mag forearm
+        temp = dataset[j][3][3][1][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        standing_total_per_row.append(pd.DataFrame(temp))
+        # Mag waist
+        temp = dataset[j][3][3][6][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        standing_total_per_row.append(pd.DataFrame(temp))
+        # Mag thigh
+        temp = dataset[j][3][3][4][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        standing_total_per_row.append(pd.DataFrame(temp))
+        # Mag head
+        temp = dataset[j][3][3][2][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        standing_total_per_row.append(pd.DataFrame(temp))
+
         if i == j:
             standing_test = pd.concat(standing_total_per_row, axis = 1, ignore_index = True)
         else:
@@ -329,6 +392,27 @@ for i in range(15):
         walking_total_per_row.append(pd.DataFrame(temp))
         # Gyr head
         temp = dataset[j][4][2][2][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        walking_total_per_row.append(pd.DataFrame(temp))
+
+        # Mag forearm
+        temp = dataset[j][4][3][1][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        walking_total_per_row.append(pd.DataFrame(temp))
+        # Mag waist
+        temp = dataset[j][4][3][6][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        walking_total_per_row.append(pd.DataFrame(temp))
+        # Mag thigh
+        temp = dataset[j][4][3][4][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        walking_total_per_row.append(pd.DataFrame(temp))
+        # Mag head
+        temp = dataset[j][4][3][2][1]
         if i == 0:
             temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
         walking_total_per_row.append(pd.DataFrame(temp))
@@ -393,6 +477,28 @@ for i in range(15):
             temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
         climbing_down_total_per_row.append(pd.DataFrame(temp))
 
+        # Mag forearm
+        temp = dataset[j][5][3][1][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        climbing_down_total_per_row.append(pd.DataFrame(temp))
+        # Mag waist
+        temp = dataset[j][5][3][6][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        climbing_down_total_per_row.append(pd.DataFrame(temp))
+        # Mag thigh
+        temp = dataset[j][5][3][4][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        climbing_down_total_per_row.append(pd.DataFrame(temp))
+        # Mag head
+        temp = dataset[j][5][3][2][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        climbing_down_total_per_row.append(pd.DataFrame(temp))
+
+
         if i == j:
             climbing_down_test = pd.concat(climbing_down_total_per_row, axis = 1, ignore_index = True)
         else:
@@ -449,9 +555,30 @@ for i in range(15):
         climbing_up_total_per_row.append(pd.DataFrame(temp))
         # Gyr head
         if j == 3 or j == 6 or j == 13:
-            temp = dataset[j][6][2][4][1]
+            temp = dataset[j][6][2][4][1]      # Gyrooscope_climbingup_thigh
         else:
-            temp = dataset[j][6][2][3][1]
+            temp = dataset[j][6][2][3][1]      # Gyrooscope_climbingup_shin
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        climbing_up_total_per_row.append(pd.DataFrame(temp))
+
+        # Mag forearm
+        temp = dataset[j][6][3][1][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        climbing_up_total_per_row.append(pd.DataFrame(temp))
+        # Mag waist
+        temp = dataset[j][6][3][6][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        climbing_up_total_per_row.append(pd.DataFrame(temp))
+        # Mag thigh
+        temp = dataset[j][6][3][4][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        climbing_up_total_per_row.append(pd.DataFrame(temp))
+        # Mag head
+        temp = dataset[j][6][3][2][1]
         if i == 0:
             temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
         climbing_up_total_per_row.append(pd.DataFrame(temp))
@@ -516,6 +643,30 @@ for i in range(15):
             temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
         jumping_total_per_row.append(pd.DataFrame(temp))
 
+        # Mag forearm
+        temp = dataset[j][7][3][1][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        jumping_total_per_row.append(pd.DataFrame(temp))
+        # Mag waist
+        # temp = dataset[j][7][3][6][1] the real one. WHY OUT OF INDEX????
+        temp = dataset[j][7][3][4][1]   # this is Mag thigh. I just wanted to ignore this error "Out of bound" when I put temp = dataset[j][7][3][6][1]  (Mag Waist)
+        #print("HIEEEEER", temp)
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        jumping_total_per_row.append(pd.DataFrame(temp))
+        # Mag thigh
+        temp = dataset[j][7][3][4][1]
+        #print("HIEEEEER2", temp)
+        #if i == 0:       #commented because "['id' 'attr_time'] not found in axis". temp = [4325 rows x 3 columns] = (attr_x  attr_y  attr_z)
+            #temp.drop(['id', 'attr_time'], axis = 1, inplace = True). Cus I already droped it for Mag waist.
+        jumping_total_per_row.append(pd.DataFrame(temp))
+        # Mag head
+        temp = dataset[j][7][3][2][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        jumping_total_per_row.append(pd.DataFrame(temp))
+
         if i == j:
             jumping_test = pd.concat(jumping_total_per_row, axis = 1, ignore_index = True)
         else:
@@ -575,6 +726,28 @@ for i in range(15):
         if i == 0:
             temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
         lying_total_per_row.append(pd.DataFrame(temp))
+
+        # Mag forearm
+        temp = dataset[j][8][3][1][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        lying_total_per_row.append(pd.DataFrame(temp))
+        # Mag waist
+        temp = dataset[j][8][3][6][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        lying_total_per_row.append(pd.DataFrame(temp))
+        # Mag thigh
+        temp = dataset[j][8][3][4][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        lying_total_per_row.append(pd.DataFrame(temp))
+        # Mag head
+        temp = dataset[j][8][3][2][1]
+        if i == 0:
+            temp.drop(['id', 'attr_time'], axis = 1, inplace = True)
+        lying_total_per_row.append(pd.DataFrame(temp))
+
 
         if i == j:
             lying_test = pd.concat(lying_total_per_row, axis = 1, ignore_index = True)
