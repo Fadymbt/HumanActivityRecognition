@@ -30,11 +30,11 @@ activity_dictionary = {
 
 def get_accuracy(y, y_pred, algorithm_name):
     f1_macro = "f1 score macro " + algorithm_name + " = " + \
-               str(round(f1_score(y, y_pred, average = 'macro') * 100, 2)) + "%"
+               str(round(f1_score(y, y_pred, average = 'macro') * 100, 4)) + "%"
     f1_micro = "f1 score micro " + algorithm_name + " = " + \
-               str(round(f1_score(y, y_pred, average = 'micro') * 100, 2)) + "%"
+               str(round(f1_score(y, y_pred, average = 'micro') * 100, 4)) + "%"
     acc = "accuracy " + algorithm_name + " = " + \
-          str(round(accuracy_score(y, y_pred) * 100, 2)) + "%"
+          str(round(accuracy_score(y, y_pred) * 100, 4)) + "%"
     print(f1_macro)
     print(f1_micro)
     print(acc)
@@ -67,59 +67,27 @@ def convert_strings_to_floats(y):
     return y
 
 
+def get_subject(subject_number):
+    x = pd.read_csv("SubjectsFeatures/subject_" + str(subject_number) + "_x.csv")
+    y = pd.read_csv("SubjectsFeatures/subject_" + str(subject_number) + "_y.csv")
+    return [x, y]
+
+
 all_subjects_time = time.time()
 
-subject_0_x = pd.read_csv("SubjectsFeatures/subject_0_x.csv")
-subject_0_y = pd.read_csv("SubjectsFeatures/subject_0_y.csv")
-subject_0 = [subject_0_x, subject_0_y]
-
-subject_2_x = pd.read_csv("SubjectsFeatures/subject_2_x.csv")
-subject_2_y = pd.read_csv("SubjectsFeatures/subject_2_y.csv")
-subject_2 = [subject_2_x, subject_2_y]
-
-subject_3_x = pd.read_csv("SubjectsFeatures/subject_3_x.csv")
-subject_3_y = pd.read_csv("SubjectsFeatures/subject_3_y.csv")
-subject_3 = [subject_3_x, subject_3_y]
-
-subject_4_x = pd.read_csv("SubjectsFeatures/subject_4_x.csv")
-subject_4_y = pd.read_csv("SubjectsFeatures/subject_4_y.csv")
-subject_4 = [subject_4_x, subject_4_y]
-
-subject_6_x = pd.read_csv("SubjectsFeatures/subject_6_x.csv")
-subject_6_y = pd.read_csv("SubjectsFeatures/subject_6_y.csv")
-subject_6 = [subject_6_x, subject_6_y]
-
-subject_7_x = pd.read_csv("SubjectsFeatures/subject_7_x.csv")
-subject_7_y = pd.read_csv("SubjectsFeatures/subject_7_y.csv")
-subject_7 = [subject_7_x, subject_7_y]
-
-subject_8_x = pd.read_csv("SubjectsFeatures/subject_8_x.csv")
-subject_8_y = pd.read_csv("SubjectsFeatures/subject_8_y.csv")
-subject_8 = [subject_8_x, subject_8_y]
-
-subject_9_x = pd.read_csv("SubjectsFeatures/subject_9_x.csv")
-subject_9_y = pd.read_csv("SubjectsFeatures/subject_9_y.csv")
-subject_9 = [subject_9_x, subject_9_y]
-
-subject_10_x = pd.read_csv("SubjectsFeatures/subject_10_x.csv")
-subject_10_y = pd.read_csv("SubjectsFeatures/subject_10_y.csv")
-subject_10 = [subject_10_x, subject_10_y]
-
-subject_11_x = pd.read_csv("SubjectsFeatures/subject_11_x.csv")
-subject_11_y = pd.read_csv("SubjectsFeatures/subject_11_y.csv")
-subject_11 = [subject_11_x, subject_11_y]
-
-subject_12_x = pd.read_csv("SubjectsFeatures/subject_12_x.csv")
-subject_12_y = pd.read_csv("SubjectsFeatures/subject_12_y.csv")
-subject_12 = [subject_12_x, subject_12_y]
-
-subject_13_x = pd.read_csv("SubjectsFeatures/subject_13_x.csv")
-subject_13_y = pd.read_csv("SubjectsFeatures/subject_13_y.csv")
-subject_13 = [subject_13_x, subject_13_y]
-
-subject_14_x = pd.read_csv("SubjectsFeatures/subject_14_x.csv")
-subject_14_y = pd.read_csv("SubjectsFeatures/subject_14_y.csv")
-subject_14 = [subject_14_x, subject_14_y]
+subject_0 = get_subject(0)
+subject_2 = get_subject(2)
+subject_3 = get_subject(3)
+subject_4 = get_subject(4)
+subject_6 = get_subject(6)
+subject_7 = get_subject(7)
+subject_8 = get_subject(8)
+subject_9 = get_subject(9)
+subject_10 = get_subject(10)
+subject_11 = get_subject(11)
+subject_12 = get_subject(12)
+subject_13 = get_subject(13)
+subject_14 = get_subject(14)
 
 all_subjects = [
     subject_0,
@@ -149,10 +117,11 @@ for i in range(len(all_subjects)):
             y_train_before_shuffle.append(pd.DataFrame(all_subjects[j][1]))
             print("I am training = ", j)
         else:
-            print("I am testing = ", i)
             x_test = pd.DataFrame(all_subjects[j][0])
             y_test = pd.DataFrame(all_subjects[j][1])
+            print("I am testing = ", j)
 
+    print("\n")
     x_train_before_shuffle = pd.concat(x_train_before_shuffle)
     y_train_before_shuffle = pd.concat(y_train_before_shuffle)
 
@@ -161,12 +130,6 @@ for i in range(len(all_subjects)):
 
     y_train = y_train.values.ravel()
     y_test = y_test.values.ravel()
-    # print(x_train.shape)
-    # print(y_train.shape)
-    # print(x_test.shape)
-    # print(y_test.shape)
-    # y_train.reset_index(drop = True, inplace = True)
-    # y_test.reset_index(drop = True, inplace = True)
 
     print("Starting Classification")
 
@@ -238,4 +201,6 @@ for i in range(len(all_subjects)):
     get_function_duration(start)
 
     get_function_duration(single_subject_time)
+
+print("Full Execution time: ")
 get_function_duration(all_subjects_time)

@@ -34,7 +34,18 @@ def calculate_features(x, y):
         features = pd.DataFrame(x[index])
         total_x_out = []
         for features_index in range(features.shape[1]):
+
+            # Uncomment this snippet of code for Cross-Correlation and comment the normal fft in the next line
+            # temp_calculate_features_fourier = np.absolute(
+            #     np.fft.ifft(
+            #         np.fft.fft(features[features_index].to_numpy())
+            #         * np.fft.fft(np.flip(features[features_index].to_numpy()))
+            #     )
+            # )
+
+            # Comment and uncomment only the next line when needed
             temp_calculate_features_fourier = np.absolute(np.fft.fft(features[features_index].to_numpy()))
+
             temp_calculate_features_mean = statistics.mean(features[features_index].to_numpy())
             temp_calculate_features_std = statistics.stdev(features[features_index].to_numpy())
             x_out = np.insert(temp_calculate_features_fourier[:int(len(temp_calculate_features_fourier) * 0.1)],
@@ -230,7 +241,7 @@ for i in range(15):
     print(climbing_up.shape)
     print(jumping.shape)
     print(lying.shape)
-    print("\n\n")
+    print("\n")
 
     all_activities_total_train_subjects = [running, sitting, standing, walking,
                                            climbing_down, climbing_up, jumping, lying]
