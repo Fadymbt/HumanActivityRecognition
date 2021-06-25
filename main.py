@@ -16,18 +16,6 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 
 
-activity_dictionary = {
-    "running": 1.0,
-    "sitting": 2.0,
-    "standing": 3.0,
-    "walking": 4.0,
-    "climbing_down": 5.0,
-    "climbing_up": 6.0,
-    "jumping": 7.0,
-    "lying": 8.0
-}
-
-
 def get_accuracy(y, y_pred, algorithm_name):
     f1_macro = "f1 score macro " + algorithm_name + " = " + \
                str(round(f1_score(y, y_pred, average = 'macro') * 100, 4)) + "%"
@@ -59,12 +47,6 @@ def generate_confusion_matrix(algorithm, x, y, algorithm_name, index, acc):
     plt.savefig("Output/Subject" + "_" + str(index + 1) + "/" + algorithm_name + str(index + 1) + ".jpg")
     plt.show()
     return plt
-
-
-def convert_strings_to_floats(y):
-    for y_key in range(len(y)):
-        y[y_key] = activity_dictionary[y[y_key]]
-    return y
 
 
 def get_subject(subject_number):
