@@ -57,35 +57,12 @@ def get_subject(subject_number):
 
 all_subjects_time = time.time()
 
-subject_0 = get_subject(0)
-subject_2 = get_subject(2)
-subject_3 = get_subject(3)
-subject_4 = get_subject(4)
-subject_6 = get_subject(6)
-subject_7 = get_subject(7)
-subject_8 = get_subject(8)
-subject_9 = get_subject(9)
-subject_10 = get_subject(10)
-subject_11 = get_subject(11)
-subject_12 = get_subject(12)
-subject_13 = get_subject(13)
-subject_14 = get_subject(14)
+all_subjects = []
 
-all_subjects = [
-    subject_0,
-    subject_2,
-    subject_3,
-    subject_4,
-    subject_6,
-    subject_7,
-    subject_8,
-    subject_9,
-    subject_10,
-    subject_11,
-    subject_12,
-    subject_13,
-    subject_14
-]
+# Append all subjects to all_subjects array
+for i in range(15):
+    if i != 1 and i != 5:
+        all_subjects.append(get_subject(i))
 
 for i in range(len(all_subjects)):
     single_subject_time = time.time()
