@@ -1,0 +1,11 @@
+############################################
+# Sensor:  GPS                             #
+# Version: 23092015                        #
+# Posture: lying                         #
+############################################
+
+GPS_lying_head.csv
+> entries: 1
+> frequency: Infinity Hz
+> duration: 0 ms / 0.00 min
+

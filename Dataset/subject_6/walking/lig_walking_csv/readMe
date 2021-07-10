@@ -1,0 +1,36 @@
+############################################
+# Sensor:  Light                             #
+# Version: 22092015                        #
+# Posture: walking                         #
+############################################
+
+Light_walking_chest.csv
+> entries: 31558
+> frequency: 49.95 Hz
+> duration: 631745 ms / 10.53 min
+
+Light_walking_head.csv
+> entries: 31557
+> frequency: 49.95 Hz
+> duration: 631736 ms / 10.53 min
+
+Light_walking_shin.csv
+> entries: 31558
+> frequency: 49.95 Hz
+> duration: 631746 ms / 10.53 min
+
+Light_walking_thigh.csv
+> entries: 31558
+> frequency: 49.95 Hz
+> duration: 631747 ms / 10.53 min
+
+Light_walking_upperarm.csv
+> entries: 31542
+> frequency: 49.93 Hz
+> duration: 631758 ms / 10.53 min
+
+Light_walking_waist.csv
+> entries: 31560
+> frequency: 49.96 Hz
+> duration: 631686 ms / 10.53 min
+

@@ -1,0 +1,36 @@
+############################################
+# Sensor:  GPS                             #
+# Version: 22092015                        #
+# Posture: climbingup                         #
+############################################
+
+GPS_climbingup_chest.csv
+> entries: 29
+> frequency: 0.06 Hz
+> duration: 516000 ms / 8.60 min
+
+GPS_climbingup_head.csv
+> entries: 51
+> frequency: 0.09 Hz
+> duration: 541000 ms / 9.02 min
+
+GPS_climbingup_shin.csv
+> entries: 46
+> frequency: 0.09 Hz
+> duration: 541000 ms / 9.02 min
+
+GPS_climbingup_thigh.csv
+> entries: 44
+> frequency: 0.09 Hz
+> duration: 516000 ms / 8.60 min
+
+GPS_climbingup_upperarm.csv
+> entries: 34
+> frequency: 0.07 Hz
+> duration: 482000 ms / 8.03 min
+
+GPS_climbingup_waist.csv
+> entries: 37
+> frequency: 0.07 Hz
+> duration: 538000 ms / 8.97 min
+

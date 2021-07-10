@@ -1,0 +1,31 @@
+############################################
+# Sensor:  GPS                             #
+# Version: 22092015                        #
+# Posture: climbingdown                         #
+############################################
+
+GPS_climbingdown_chest.csv
+> entries: 45
+> frequency: 0.09 Hz
+> duration: 502000 ms / 8.37 min
+
+GPS_climbingdown_head.csv
+> entries: 39
+> frequency: 0.08 Hz
+> duration: 479000 ms / 7.98 min
+
+GPS_climbingdown_shin.csv
+> entries: 28
+> frequency: 0.06 Hz
+> duration: 449000 ms / 7.48 min
+
+GPS_climbingdown_upperarm.csv
+> entries: 32
+> frequency: 0.07 Hz
+> duration: 463000 ms / 7.72 min
+
+GPS_climbingdown_waist.csv
+> entries: 36
+> frequency: 0.07 Hz
+> duration: 483000 ms / 8.05 min
+

@@ -1,0 +1,36 @@
+############################################
+# Sensor:  Microphone                             #
+# Version: 23092015                        #
+# Posture: climbingup                         #
+############################################
+
+Microphone_climbingup_chest.csv
+> entries: 814
+> frequency: 1.38 Hz
+> duration: 591162 ms / 9.85 min
+
+Microphone_climbingup_head.csv
+> entries: 805
+> frequency: 1.36 Hz
+> duration: 590951 ms / 9.85 min
+
+Microphone_climbingup_shin.csv
+> entries: 802
+> frequency: 1.36 Hz
+> duration: 591068 ms / 9.85 min
+
+Microphone_climbingup_thigh.csv
+> entries: 803
+> frequency: 1.36 Hz
+> duration: 590639 ms / 9.84 min
+
+Microphone_climbingup_upperarm.csv
+> entries: 803
+> frequency: 1.36 Hz
+> duration: 591043 ms / 9.85 min
+
+Microphone_climbingup_waist.csv
+> entries: 800
+> frequency: 1.35 Hz
+> duration: 590845 ms / 9.85 min
+

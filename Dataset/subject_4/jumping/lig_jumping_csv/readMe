@@ -1,0 +1,36 @@
+############################################
+# Sensor:  Light                             #
+# Version: 23092015                        #
+# Posture: jumping                         #
+############################################
+
+Light_jumping_chest.csv
+> entries: 4292
+> frequency: 49.96 Hz
+> duration: 85904 ms / 1.43 min
+
+Light_jumping_head.csv
+> entries: 4292
+> frequency: 50.01 Hz
+> duration: 85815 ms / 1.43 min
+
+Light_jumping_shin.csv
+> entries: 4291
+> frequency: 49.96 Hz
+> duration: 85891 ms / 1.43 min
+
+Light_jumping_thigh.csv
+> entries: 4294
+> frequency: 50.02 Hz
+> duration: 85844 ms / 1.43 min
+
+Light_jumping_upperarm.csv
+> entries: 4293
+> frequency: 49.98 Hz
+> duration: 85898 ms / 1.43 min
+
+Light_jumping_waist.csv
+> entries: 4292
+> frequency: 49.97 Hz
+> duration: 85900 ms / 1.43 min
+

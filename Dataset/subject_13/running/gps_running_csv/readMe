@@ -1,0 +1,36 @@
+############################################
+# Sensor:  GPS                             #
+# Version: 22092015                        #
+# Posture: running                         #
+############################################
+
+GPS_running_chest.csv
+> entries: 55
+> frequency: 0.09 Hz
+> duration: 601000 ms / 10.02 min
+
+GPS_running_head.csv
+> entries: 58
+> frequency: 0.09 Hz
+> duration: 615000 ms / 10.25 min
+
+GPS_running_shin.csv
+> entries: 53
+> frequency: 0.09 Hz
+> duration: 602000 ms / 10.03 min
+
+GPS_running_thigh.csv
+> entries: 58
+> frequency: 0.09 Hz
+> duration: 613000 ms / 10.22 min
+
+GPS_running_upperarm.csv
+> entries: 54
+> frequency: 0.09 Hz
+> duration: 605000 ms / 10.08 min
+
+GPS_running_waist.csv
+> entries: 41
+> frequency: 0.07 Hz
+> duration: 604000 ms / 10.07 min
+

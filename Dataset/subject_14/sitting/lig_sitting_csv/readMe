@@ -1,0 +1,36 @@
+############################################
+# Sensor:  Light                             #
+# Version: 23092015                        #
+# Posture: sitting                         #
+############################################
+
+Light_sitting_chest.csv
+> entries: 31566
+> frequency: 49.95 Hz
+> duration: 631908 ms / 10.53 min
+
+Light_sitting_head.csv
+> entries: 31567
+> frequency: 49.96 Hz
+> duration: 631852 ms / 10.53 min
+
+Light_sitting_shin.csv
+> entries: 31565
+> frequency: 49.95 Hz
+> duration: 631889 ms / 10.53 min
+
+Light_sitting_thigh.csv
+> entries: 31586
+> frequency: 50.07 Hz
+> duration: 630825 ms / 10.51 min
+
+Light_sitting_upperarm.csv
+> entries: 31565
+> frequency: 49.95 Hz
+> duration: 631891 ms / 10.53 min
+
+Light_sitting_waist.csv
+> entries: 31567
+> frequency: 49.96 Hz
+> duration: 631886 ms / 10.53 min
+

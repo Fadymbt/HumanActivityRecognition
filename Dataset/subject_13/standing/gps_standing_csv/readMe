@@ -1,0 +1,36 @@
+############################################
+# Sensor:  GPS                             #
+# Version: 22092015                        #
+# Posture: standing                         #
+############################################
+
+GPS_standing_chest.csv
+> entries: 62
+> frequency: 0.09 Hz
+> duration: 676000 ms / 11.27 min
+
+GPS_standing_head.csv
+> entries: 64
+> frequency: 0.10 Hz
+> duration: 664000 ms / 11.07 min
+
+GPS_standing_shin.csv
+> entries: 53
+> frequency: 0.08 Hz
+> duration: 658000 ms / 10.97 min
+
+GPS_standing_thigh.csv
+> entries: 66
+> frequency: 0.10 Hz
+> duration: 675000 ms / 11.25 min
+
+GPS_standing_upperarm.csv
+> entries: 63
+> frequency: 0.09 Hz
+> duration: 669000 ms / 11.15 min
+
+GPS_standing_waist.csv
+> entries: 50
+> frequency: 0.07 Hz
+> duration: 678000 ms / 11.30 min
+

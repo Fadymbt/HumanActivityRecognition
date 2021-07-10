@@ -1,0 +1,36 @@
+############################################
+# Sensor:  Microphone                             #
+# Version: 22092015                        #
+# Posture: climbingdown                         #
+############################################
+
+Microphone_climbingdown_chest.csv
+> entries: 600
+> frequency: 1.37 Hz
+> duration: 438098 ms / 7.30 min
+
+Microphone_climbingdown_head.csv
+> entries: 599
+> frequency: 1.37 Hz
+> duration: 438786 ms / 7.31 min
+
+Microphone_climbingdown_shin.csv
+> entries: 598
+> frequency: 1.36 Hz
+> duration: 438237 ms / 7.30 min
+
+Microphone_climbingdown_thigh.csv
+> entries: 595
+> frequency: 1.36 Hz
+> duration: 438966 ms / 7.32 min
+
+Microphone_climbingdown_upperarm.csv
+> entries: 912
+> frequency: 2.08 Hz
+> duration: 438215 ms / 7.30 min
+
+Microphone_climbingdown_waist.csv
+> entries: 596
+> frequency: 1.36 Hz
+> duration: 438792 ms / 7.31 min
+

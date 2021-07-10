@@ -1,0 +1,36 @@
+############################################
+# Sensor:  Light                             #
+# Version: 23092015                        #
+# Posture: running                         #
+############################################
+
+Light_running_chest.csv
+> entries: 30989
+> frequency: 49.88 Hz
+> duration: 621302 ms / 10.36 min
+
+Light_running_head.csv
+> entries: 31039
+> frequency: 49.96 Hz
+> duration: 621322 ms / 10.36 min
+
+Light_running_shin.csv
+> entries: 31038
+> frequency: 49.95 Hz
+> duration: 621338 ms / 10.36 min
+
+Light_running_thigh.csv
+> entries: 31023
+> frequency: 49.93 Hz
+> duration: 621359 ms / 10.36 min
+
+Light_running_upperarm.csv
+> entries: 31038
+> frequency: 49.95 Hz
+> duration: 621348 ms / 10.36 min
+
+Light_running_waist.csv
+> entries: 31040
+> frequency: 49.95 Hz
+> duration: 621363 ms / 10.36 min
+

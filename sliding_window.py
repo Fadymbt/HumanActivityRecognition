@@ -1,5 +1,4 @@
 import numpy as np
-import read_dataset
 
 
 def sliding_window(data, length_in_seconds=1, sampling_rate=50, overlap_ratio=None):
@@ -39,8 +38,7 @@ def sliding_window_samples(data, samples_per_window, overlap_ratio):
     # overlap_ratio:
     # index results via windows[window_no][entry_no] (same for indices)
     :param data: input array, can be numpy or pandas dataframe
-    :param length_in_seconds: window length as seconds
-    :param sampling_rate: sampling rate in hertz as integer value
+    :param samples_per_window: number of samples in each window
     :param overlap_ratio: overlap is meant as percentage and should be an integer value
     :return: tuple of windows and indices
     """

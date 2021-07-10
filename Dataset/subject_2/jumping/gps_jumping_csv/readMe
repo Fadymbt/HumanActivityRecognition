@@ -1,0 +1,36 @@
+############################################
+# Sensor:  GPS                             #
+# Version: 22092015                        #
+# Posture: jumping                         #
+############################################
+
+GPS_jumping_chest.csv
+> entries: 4
+> frequency: 0.07 Hz
+> duration: 54306 ms / 0.91 min
+
+GPS_jumping_head.csv
+> entries: 5
+> frequency: 0.06 Hz
+> duration: 81432 ms / 1.36 min
+
+GPS_jumping_shin.csv
+> entries: 5
+> frequency: 0.06 Hz
+> duration: 81447 ms / 1.36 min
+
+GPS_jumping_thigh.csv
+> entries: 5
+> frequency: 0.06 Hz
+> duration: 81434 ms / 1.36 min
+
+GPS_jumping_upperarm.csv
+> entries: 5
+> frequency: 0.06 Hz
+> duration: 80689 ms / 1.34 min
+
+GPS_jumping_waist.csv
+> entries: 5
+> frequency: 0.06 Hz
+> duration: 80761 ms / 1.35 min
+

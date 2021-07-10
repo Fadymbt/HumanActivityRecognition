@@ -76,17 +76,18 @@ def remove_unwanted_columns(temp_df):
 
 start = time.time()
 print("Started Execution")
-path = "Dataset"
+path = "OldDataset"
 dataset = rd.get_all_subjects_data(path)
 print("Data extracted")
 get_function_duration(start)
 
-matches = ["forearm", "waist", "thigh", "head", "chest"]
+matches = ["shin", "waist", "thigh", "head", "chest", "upperarm"]
 
 all_subjects_time = time.time()
 for i in range(15):
-    if i == 1 or i == 5:
-        continue
+    # if i == 1 or i == 5 or i == 6:
+    #     continue
+    print("subject ", i)
     single_subject_time = time.time()
 
     # Running Dataframe from dataset
@@ -243,16 +244,21 @@ for i in range(15):
     print(lying.shape)
     print("\n")
 
-    all_activities_total_train_subjects = [running, sitting, standing, walking,
-                                           climbing_down, climbing_up, jumping, lying]
-    size = all_activities_total_train_subjects[0].shape[0]
-    for j in range(1, len(all_activities_total_train_subjects)):
-        if size > all_activities_total_train_subjects[j].shape[0]:
-            size = all_activities_total_train_subjects[j].shape[0]
-    for j in range(0, len(all_activities_total_train_subjects)):
-        all_activities_total_train_subjects[j] = all_activities_total_train_subjects[j].iloc[:size, :]
-        print(all_activities_total_train_subjects[j].shape)
-    all_activities_train_subjects = pd.concat(all_activities_total_train_subjects, axis = 0, ignore_index = True)
+    # [running, sitting, standing, walking,
+    #  climbing_down, climbing_up, jumping, lying]
+    all_activities_single_subject = [running, sitting, standing, walking]
+
+    size = all_activities_single_subject[0].shape[0]
+    for j in range(1, len(all_activities_single_subject)):
+        if size > all_activities_single_subject[j].shape[0]:
+            size = all_activities_single_subject[j].shape[0]
+
+    for j in range(0, len(all_activities_single_subject)):
+        remove_n = all_activities_single_subject[j].shape[0] - size
+        drop_indices = np.random.choice(all_activities_single_subject[j].index, remove_n, replace = False)
+        all_activities_single_subject[j] = all_activities_single_subject[j].drop(drop_indices)
+        print(all_activities_single_subject[j].shape)
+    all_activities_train_subjects = pd.concat(all_activities_single_subject, axis = 0, ignore_index = True)
 
     activity_windows_train_subjects, activity_indices_train_subjects \
         = sw.sliding_window_samples(all_activities_train_subjects, 50, 25)

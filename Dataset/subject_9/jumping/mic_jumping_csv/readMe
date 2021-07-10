@@ -1,0 +1,36 @@
+############################################
+# Sensor:  Microphone                             #
+# Version: 22092015                        #
+# Posture: jumping                         #
+############################################
+
+Microphone_jumping_chest.csv
+> entries: 139
+> frequency: 1.38 Hz
+> duration: 100914 ms / 1.68 min
+
+Microphone_jumping_head.csv
+> entries: 135
+> frequency: 1.34 Hz
+> duration: 100838 ms / 1.68 min
+
+Microphone_jumping_shin.csv
+> entries: 208
+> frequency: 2.05 Hz
+> duration: 101323 ms / 1.69 min
+
+Microphone_jumping_thigh.csv
+> entries: 138
+> frequency: 1.37 Hz
+> duration: 101096 ms / 1.68 min
+
+Microphone_jumping_upperarm.csv
+> entries: 140
+> frequency: 1.40 Hz
+> duration: 100250 ms / 1.67 min
+
+Microphone_jumping_waist.csv
+> entries: 139
+> frequency: 1.38 Hz
+> duration: 100562 ms / 1.68 min
+

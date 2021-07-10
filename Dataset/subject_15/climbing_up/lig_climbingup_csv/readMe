@@ -1,0 +1,36 @@
+############################################
+# Sensor:  Light                             #
+# Version: 23092015                        #
+# Posture: climbingup                         #
+############################################
+
+Light_climbingup_chest.csv
+> entries: 29169
+> frequency: 49.95 Hz
+> duration: 583921 ms / 9.73 min
+
+Light_climbingup_head.csv
+> entries: 29169
+> frequency: 49.95 Hz
+> duration: 583924 ms / 9.73 min
+
+Light_climbingup_shin.csv
+> entries: 29172
+> frequency: 49.96 Hz
+> duration: 583932 ms / 9.73 min
+
+Light_climbingup_thigh.csv
+> entries: 29170
+> frequency: 49.95 Hz
+> duration: 583941 ms / 9.73 min
+
+Light_climbingup_upperarm.csv
+> entries: 29169
+> frequency: 49.95 Hz
+> duration: 583931 ms / 9.73 min
+
+Light_climbingup_waist.csv
+> entries: 29167
+> frequency: 49.95 Hz
+> duration: 583871 ms / 9.73 min
+

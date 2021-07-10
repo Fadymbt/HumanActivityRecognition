@@ -1,0 +1,36 @@
+############################################
+# Sensor:  Light                             #
+# Version: 22092015                        #
+# Posture: lying                         #
+############################################
+
+Light_lying_chest.csv
+> entries: 31469
+> frequency: 49.95 Hz
+> duration: 629968 ms / 10.50 min
+
+Light_lying_head.csv
+> entries: 31469
+> frequency: 49.95 Hz
+> duration: 629973 ms / 10.50 min
+
+Light_lying_shin.csv
+> entries: 31468
+> frequency: 49.95 Hz
+> duration: 629956 ms / 10.50 min
+
+Light_lying_thigh.csv
+> entries: 31469
+> frequency: 49.95 Hz
+> duration: 629968 ms / 10.50 min
+
+Light_lying_upperarm.csv
+> entries: 31464
+> frequency: 49.95 Hz
+> duration: 629879 ms / 10.50 min
+
+Light_lying_waist.csv
+> entries: 31470
+> frequency: 49.95 Hz
+> duration: 629974 ms / 10.50 min
+

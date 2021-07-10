@@ -1,0 +1,11 @@
+############################################
+# Sensor:  GPS                             #
+# Version: 23092015                        #
+# Posture: jumping                         #
+############################################
+
+GPS_jumping_head.csv
+> entries: 3
+> frequency: 0.06 Hz
+> duration: 50000 ms / 0.83 min
+

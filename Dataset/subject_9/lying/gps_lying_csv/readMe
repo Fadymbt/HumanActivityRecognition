@@ -1,0 +1,36 @@
+############################################
+# Sensor:  GPS                             #
+# Version: 22092015                        #
+# Posture: lying                         #
+############################################
+
+GPS_lying_chest.csv
+> entries: 31
+> frequency: 0.05 Hz
+> duration: 606708 ms / 10.11 min
+
+GPS_lying_head.csv
+> entries: 31
+> frequency: 0.05 Hz
+> duration: 607788 ms / 10.13 min
+
+GPS_lying_shin.csv
+> entries: 31
+> frequency: 0.05 Hz
+> duration: 610585 ms / 10.18 min
+
+GPS_lying_thigh.csv
+> entries: 31
+> frequency: 0.05 Hz
+> duration: 609040 ms / 10.15 min
+
+GPS_lying_upperarm.csv
+> entries: 31
+> frequency: 0.05 Hz
+> duration: 607796 ms / 10.13 min
+
+GPS_lying_waist.csv
+> entries: 32
+> frequency: 0.05 Hz
+> duration: 627177 ms / 10.45 min
+

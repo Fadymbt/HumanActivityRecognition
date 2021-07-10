@@ -61,8 +61,8 @@ all_subjects = []
 
 # Append all subjects to all_subjects array
 for i in range(15):
-    if i != 1 and i != 5:
-        all_subjects.append(get_subject(i))
+    # if i != 1 and i != 5:
+    all_subjects.append(get_subject(i))
 
 for i in range(len(all_subjects)):
     single_subject_time = time.time()
@@ -116,13 +116,13 @@ for i in range(len(all_subjects)):
     generate_confusion_matrix(d_tree, x_test, y_test, "Decision Tree for subject ", i, all_accuracies)
     get_function_duration(start)
 
-    start = time.time()
-    ada_boost = AdaBoostClassifier(n_estimators = 50, random_state = 0)
-    ada_boost.fit(x_train, y_train)
-    y_pred_ada_boost = ada_boost.predict(x_test)
-    all_accuracies = get_accuracy(y_test, y_pred_ada_boost, "AdaBoost")
-    generate_confusion_matrix(ada_boost, x_test, y_test, "Adaboost for subject ", i, all_accuracies)
-    get_function_duration(start)
+    # start = time.time()
+    # ada_boost = AdaBoostClassifier(n_estimators = 50, random_state = 0)
+    # ada_boost.fit(x_train, y_train)
+    # y_pred_ada_boost = ada_boost.predict(x_test)
+    # all_accuracies = get_accuracy(y_test, y_pred_ada_boost, "AdaBoost")
+    # generate_confusion_matrix(ada_boost, x_test, y_test, "Adaboost for subject ", i, all_accuracies)
+    # get_function_duration(start)
 
     start = time.time()
     ada_d_tree = AdaBoostClassifier(DecisionTreeClassifier(random_state = 0), n_estimators = 50, random_state = 0)
