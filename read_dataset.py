@@ -131,7 +131,7 @@ def read_csv_files(final_path):
     all_files = []
     for root, dirs, files in os.walk(final_path):
         for file in files:
-            if file != "readMe":
+            if file != "readMe" and file != ".DS_Store":
                 csv_file = pd.read_csv(final_path + "/" + file)
                 all_files.append([file[:-4], csv_file])
     return all_files

@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score, f1_score, plot_confusion_matrix
+from sklearn.metrics import accuracy_score, f1_score, plot_confusion_matrix, ConfusionMatrixDisplay
 from sklearn.svm import SVC
 from sklearn.neural_network import MLPClassifier
 from sklearn.tree import DecisionTreeClassifier
@@ -37,7 +37,8 @@ def get_function_duration(start_time):
 
 
 def generate_confusion_matrix(algorithm, x, y, algorithm_name, index, acc):
-    plot_confusion_matrix(algorithm, x, y)
+    # plot_confusion_matrix(algorithm, x, y)
+    ConfusionMatrixDisplay.from_estimator(algorithm, x, y)
     plt.title(algorithm_name + str(index + 1))
     plt.xticks(rotation = 90)
     plt.xlabel("Predicted label\n" + acc)

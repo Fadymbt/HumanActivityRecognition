@@ -76,7 +76,7 @@ def remove_unwanted_columns(temp_df):
 
 start = time.time()
 print("Started Execution")
-path = "OldDataset"
+path = "Dataset"
 dataset = rd.get_all_subjects_data(path)
 print("Data extracted")
 get_function_duration(start)
