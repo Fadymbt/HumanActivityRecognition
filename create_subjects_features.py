@@ -93,8 +93,8 @@ for i in range(15):
     # Running Dataframe from dataset
     running_total_per_row = []
 
-    """ k loops through the sensors in the Dataset Dataframe
-    l loops through the body parts where the sensors were placed
+    """ sensor_index loops through the sensors in the Dataset Dataframe
+    body_part_index loops through the body parts where the sensors were placed
     and looks for the matches wanted in the matches list in the beginning of the code
     once the body part is found, it is then appended to the running_total_per_row list """
     for sensor_index in range(len(dataset[i][1])):
@@ -111,8 +111,8 @@ for i in range(15):
     # Sitting Dataframe from dataset
     sitting_total_per_row = []
 
-    """ k loops through the sensors in the Dataset Dataframe
-    l loops through the body parts where the sensors were placed
+    """ sensor_index loops through the sensors in the Dataset Dataframe
+    body_part_index loops through the body parts where the sensors were placed
     and looks for the matches wanted in the matches list in the beginning of the code
     once the body part is found, it is then appended to the sitting_total_per_row list """
     for sensor_index in range(len(dataset[i][2])):
@@ -129,8 +129,8 @@ for i in range(15):
     # Standing Dataframe from dataset
     standing_total_per_row = []
 
-    """ k loops through the sensors in the Dataset Dataframe
-    l loops through the body parts where the sensors were placed
+    """ sensor_index loops through the sensors in the Dataset Dataframe
+    body_part_index loops through the body parts where the sensors were placed
     and looks for the matches wanted in the matches list in the beginning of the code
     once the body part is found, it is then appended to the standing_total_per_row list """
     for sensor_index in range(len(dataset[i][3])):
@@ -147,8 +147,8 @@ for i in range(15):
 # Walking Dataframe from dataset
     walking_total_per_row = []
 
-    """ k loops through the sensors in the Dataset Dataframe
-    l loops through the body parts where the sensors were placed
+    """ sensor_index loops through the sensors in the Dataset Dataframe
+    body_part_index loops through the body parts where the sensors were placed
     and looks for the matches wanted in the matches list in the beginning of the code
     once the body part is found, it is then appended to the walking_total_per_row list """
     for sensor_index in range(len(dataset[i][4])):
@@ -165,8 +165,8 @@ for i in range(15):
 # Climbing down Dataframe from dataset
     climbing_down_total_per_row = []
 
-    """ k loops through the sensors in the Dataset Dataframe
-    l loops through the body parts where the sensors were placed
+    """ sensor_index loops through the sensors in the Dataset Dataframe
+    body_part_index loops through the body parts where the sensors were placed
     and looks for the matches wanted in the matches list in the beginning of the code
     once the body part is found, it is then appended to the climbing_down_total_per_row list """
     for sensor_index in range(len(dataset[i][5])):
@@ -183,8 +183,8 @@ for i in range(15):
     # Climbing up Dataframe from dataset
     climbing_up_total_per_row = []
 
-    """ k loops through the sensors in the Dataset Dataframe
-    l loops through the body parts where the sensors were placed
+    """ sensor_index loops through the sensors in the Dataset Dataframe
+    body_part_index loops through the body parts where the sensors were placed
     and looks for the matches wanted in the matches list in the beginning of the code
     once the body part is found, it is then appended to the climbing_up_total_per_row list """
     for sensor_index in range(len(dataset[i][6])):
@@ -201,8 +201,8 @@ for i in range(15):
     # Jumping Dataframe from dataset
     jumping_total_per_row = []
 
-    """ k loops through the sensors in the Dataset Dataframe
-    l loops through the body parts where the sensors were placed
+    """ sensor_index loops through the sensors in the Dataset Dataframe
+    body_part_index loops through the body parts where the sensors were placed
     and looks for the matches wanted in the matches list in the beginning of the code
     once the body part is found, it is then appended to the jumping_total_per_row list """
     for sensor_index in range(len(dataset[i][7])):
@@ -219,8 +219,8 @@ for i in range(15):
     # Lying Dataframe from dataset
     lying_total_per_row = []
 
-    """ k loops through the sensors in the Dataset Dataframe
-    l loops through the body parts where the sensors were placed
+    """ sensor_index loops through the sensors in the Dataset Dataframe
+    body_part_index loops through the body parts where the sensors were placed
     and looks for the matches wanted in the matches list in the beginning of the code
     once the body part is found, it is then appended to the lying_total_per_row list """
     for sensor_index in range(len(dataset[i][8])):
